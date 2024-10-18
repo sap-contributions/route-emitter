@@ -52,6 +52,7 @@ func RegistryMessageFor(endpoint Endpoint, route Route, emitEndpointUpdatedAt bo
 		PrivateInstanceIndex: index,
 		ServerCertDomainSAN:  endpoint.InstanceGUID,
 		RouteServiceUrl:      route.RouteServiceUrl,
+		Options:              route.Options,
 	}
 }
 
